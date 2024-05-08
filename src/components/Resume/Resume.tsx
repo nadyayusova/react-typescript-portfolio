@@ -29,27 +29,27 @@ function Resume() {
           фриланс‑команд.
         </p>
       </div>
-      <p className={position}>Frontend-разработчик (2022 - настоящее время)</p>
+      <p className={position}>Frontend-разработчик</p>
       <p className={projectText}>
-        Опыт коммерческой разработки сайтов 2 года. Создала 11 сайтов средней и легкой степени
-        сложности. Моими обязанностями были: верстка и стилизация (HTML, PUG, SCSS), написание
-        скриптов на JavaScript, анимация (GSAP, CSS).
+        Опыт коммерческой разработки сайтов 2 года. Создала 10 сайтов средней и легкой степени
+        сложности. Моими обязанностями были: написание скриптов на JavaScript, анимация (GSAP, CSS),
+        верстка и стилизация (HTML, PUG, SCSS), исправление выявленных багов в других проектах.
       </p>
       <p className={projectText}>
         Работа над проектами ведется в команде: тимлид, менеджер и несколько программистов.
       </p>
       <p className={projectText}>Мои навыки:</p>
       <ul className={technologiesList}>
-        <li className={technologiesItem}>- HTML, PUG</li>
-        <li className={technologiesItem}>- CSS, SCSS</li>
-        <li className={technologiesItem}>- методология BEM, адаптивная верстка</li>
         <li className={technologiesItem}>
-          - TypeScript, JavaScript (ES5, ES6), анимация (GSAP, CSS)
+          - TypeScript, React, JavaScript (ES5, ES6), анимация (GSAP, CSS)
         </li>
-        <li className={technologiesItem}>- Gulp, Webpack, Git, GitHub, GitLab</li>
+        <li className={technologiesItem}>
+          - HTML, PUG, CSS, SCSS, методология BEM, адаптивная верстка
+        </li>
         <li className={technologiesItem}>
           - использование библиотек (swiper, simplebar, fancybox, locomotive scroll и других)
         </li>
+        <li className={technologiesItem}>- прочее: Gulp, Webpack, Git, GitHub, GitLab</li>
       </ul>
     </div>
   );
