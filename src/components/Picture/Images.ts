@@ -28,6 +28,11 @@ import hangmanPictureBig from '../../assets/img/hangman@2x.png';
 import hangmanPictureSmallWebp from '../../assets/img/hangman.webp';
 import hangmanPictureBigWebp from '../../assets/img/hangman@2x.webp';
 
+import moongladePictureSmall from '../../assets/img/moonglade.png';
+import moongladePictureBig from '../../assets/img/moonglade@2x.png';
+import moongladePictureSmallWebp from '../../assets/img/moonglade.webp';
+import moongladePictureBigWebp from '../../assets/img/moonglade@2x.webp';
+
 type ImagesType = {
   [key: string]: {
     [key: string]: string;
@@ -69,6 +74,12 @@ const images: ImagesType = {
     pngBig: hangmanPictureBig,
     webpSmall: hangmanPictureSmallWebp,
     webpBig: hangmanPictureBigWebp,
+  },
+  moonglade: {
+    pngSmall: moongladePictureSmall,
+    pngBig: moongladePictureBig,
+    webpSmall: moongladePictureSmallWebp,
+    webpBig: moongladePictureBigWebp,
   },
 };
 

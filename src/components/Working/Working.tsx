@@ -18,6 +18,29 @@ function Working() {
       <div className={projectsList}>
         <ProjectItem className={projectsItem}>
           <h3 className={companyTitle}>
+            <p>Частный заказчик</p>
+          </h3>
+          <div className={projectDesctiption}>
+            <Picture
+              imgName="moonglade"
+              className={imgWrapper}
+            />
+            <p className={projectText}>
+              Лендинг Moonglade. В проекте использовались Next.js, TypeScript, Tailwind CSS.
+              Анимация выполнена с использованием GSAP, плавный скролл - Locomotive Scroll.
+              Frontend-часть сайта - полностью моя работа.{' '}
+              <a
+                href="https://github.com/nadyayusova/moonglade-front-project"
+                rel="nofollow noopener noreferrer"
+                target="_blank"
+              >
+                Ссылка на репозиторий.
+              </a>
+            </p>
+          </div>
+        </ProjectItem>
+        <ProjectItem className={projectsItem}>
+          <h3 className={companyTitle}>
             <a
               href="https://ligaa.agency/portfolio.html"
               rel="nofollow noopener noreferrer"

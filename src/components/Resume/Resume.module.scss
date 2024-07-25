@@ -17,7 +17,7 @@
   @include vp-1023 {
     font-size: 1.15rem;
   }
-  
+
   @include vp-767 {
     font-size: 1rem;
   }
@@ -30,7 +30,7 @@
   @include vp-1023 {
     font-size: 0.9rem;
   }
-  
+
   @include vp-767 {
     font-size: 0.8rem;
   }
@@ -40,8 +40,17 @@
   margin: 10px 0 0;
 }
 
-.project-text {
+.text {
   margin: 10px 0 0;
+}
+
+.resume-block:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.block-title {
+  margin: 10px 0 0;
+  font-weight: 700;
 }
 
 .technologies-list {
