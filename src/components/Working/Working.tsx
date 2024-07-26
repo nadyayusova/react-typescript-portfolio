@@ -35,7 +35,8 @@ function Working() {
                 target="_blank"
               >
                 Ссылка на репозиторий.
-              </a>
+              </a>{' '}
+              Картинки и видео заменены на фиктивные.
             </p>
           </div>
         </ProjectItem>

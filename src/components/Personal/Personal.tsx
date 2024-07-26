@@ -95,7 +95,7 @@ function Personal() {
                 rel="nofollow noopener noreferrer"
                 target="_blank"
               >
-                Учебный проект Rolling Scoprs School.
+                Учебный проект Rolling Scopes School.
               </a>{' '}
               Три страницы, адаптивная верстка, PixelPerfect, JavaScript для меню и пагинации.{' '}
               <a
